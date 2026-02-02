@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.3.3
 // @description  its aimbot, wireframe and esp what else do u want.
-// @author       Zertalious (Zert)
+// @author       Modadog
 // @match        *://krunker.io/*
 // @match        *://browserfps.com/*
 // @exclude      *://krunker.io/social*
@@ -451,10 +451,8 @@ el.innerHTML = `<style>
 	<br>
 	<br>
 	<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 5px;">
-		<div class="btn" onclick="window.open('https://discord.gg/K24Zxy88VM', '_blank')">Discord</div>
-		<div class="btn" onclick="window.open('https://www.instagram.com/zertalious/', '_blank')">Instagram</div>
-		<div class="btn" onclick="window.open('https://twitter.com/Zertalious', '_blank')">Twitter</div>
-		<div class="btn" onclick="window.open('https://greasyfork.org/en/users/662330-zertalious', '_blank')">More scripts</div>
+		<div class="btn" onclick="window.open('https://discord.gg/sqBv97eatz', '_blank')">Discord</div>
+		<div class="btn" onclick="window.open('https://github.com/modadog', '_blank')">More scripts</div>
 	</div>
 	` }
 </div>`;
@@ -614,7 +612,7 @@ function createGUI() {
 	}
 
 	contentEl.appendChild( fromHtml( `<div class="zui-item text">
-		<span>Created by Zertalious!</span>
+		<span>Created by Modadog!</span>
 	</div>` ) );
 
 	return guiEl;
