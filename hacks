@@ -22,19 +22,19 @@ const THREE = window.THREE;
 delete window.THREE;
 
 const settings = {
-	aimbotEnabled: true, 
+	aimbotEnabled: true,
 	aimbotOnRightMouse: true,
-	espEnabled: true, 
+	espEnabled: true,
 	espLines: false,
 	wireframe: false
 };
 
 const keyToSetting = {
-	Keyl: 'aimbotEnabled',
-	Keym: 'aimbotOnRightMouse',  
-	KeyM: 'espEnabled', 
-	Key: 'espLines', 
-	Keyk: 'wireframe'
+	Key: 'aimbotEnabled',
+	Key: 'aimbotOnRightMouse',
+	Key: 'espEnabled',
+	Key: 'espLines',
+	Key: 'wireframe',
 };
 
 const gui = createGUI();
@@ -53,7 +53,7 @@ const x = {
 	clearInterval: window.clearInterval,
 	setTimeout: window.setTimeout,
 	reToString: RegExp.prototype.toString,
-	indexOf: String.prototype.indexOf, 
+	indexOf: String.prototype.indexOf,
 	requestAnimationFrame: window.requestAnimationFrame
 };
 
@@ -602,7 +602,7 @@ function createGUI() {
 
 				return this[ p ];
 
-			}, 
+			},
 			set( value ) {
 
 				this[ p ] = value;
