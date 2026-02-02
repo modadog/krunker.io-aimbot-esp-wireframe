@@ -30,11 +30,11 @@ const settings = {
 };
 
 const keyToSetting = {
-	Keyl: 'aimbotEnabled',
-	Keym: 'aimbotOnRightMouse',
-	KeyM: 'espEnabled',
+	Key: 'aimbotEnabled',
+	Key: 'aimbotOnRightMouse',
+	Key: 'espEnabled',
 	Key: 'espLines',
-	Keyk: 'wireframe'
+	Key: 'wireframe',
 };
 
 const gui = createGUI();
