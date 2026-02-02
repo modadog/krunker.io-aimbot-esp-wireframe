@@ -447,7 +447,7 @@ el.innerHTML = `<style>
 	[H] to show/hide help
 	<br>
 	<br>
-	By Zertalious
+	By Modadog
 	<br>
 	<br>
 	<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 5px;">
