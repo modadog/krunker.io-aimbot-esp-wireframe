@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Krunker.IO Aimbot & ESP
+// @name         Krunker.IO Aimbot, esp, wireframe
 // @namespace    http://tampermonkey.net/
 // @version      0.3.3
-// @description  Locks aim to the nearest player in krunker.io and shows players behind walls. Also shows a line between you and them.
+// @description  its aimbot, wireframe and esp what else do u want
 // @author       Zertalious (Zert)
 // @match        *://krunker.io/*
 // @match        *://browserfps.com/*
