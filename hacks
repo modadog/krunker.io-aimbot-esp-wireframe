@@ -8,7 +8,7 @@
 // @match        *://browserfps.com/*
 // @exclude      *://krunker.io/social*
 // @exclude      *://krunker.io/editor*
-// @icon         https://www.google.com/s2/favicons?domain=krunker.io
+// @icon         https://image2url.com/r2/default/images/1770069970229-bd75176a-0139-44ed-b557-c3d1a1d65c6f.jpeg
 // @grant        none
 // @run-at       document-start
 // @require      https://unpkg.com/three@0.150.0/build/three.min.js
@@ -30,11 +30,11 @@ const settings = {
 };
 
 const keyToSetting = {
-	Key: 'aimbotEnabled',
-	Key: 'aimbotOnRightMouse',
-	Key: 'espEnabled',
+	Keyl: 'aimbotEnabled',
+	Keym: 'aimbotOnRightMouse',
+	KeyM: 'espEnabled',
 	Key: 'espLines',
-	Key: 'wireframe',
+	Keyk: 'wireframe'
 };
 
 const gui = createGUI();
