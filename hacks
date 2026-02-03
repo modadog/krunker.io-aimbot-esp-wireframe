@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Krunker.IO Aimbot, esp, wireframe
 // @namespace    http://tampermonkey.net/
-// @version      0.3.3
+// @version      1
 // @description  its aimbot, wireframe and esp what else do u want.
 // @author       Modadog
 // @match        *://krunker.io/*
@@ -12,8 +12,8 @@
 // @grant        none
 // @run-at       document-start
 // @require      https://unpkg.com/three@0.150.0/build/three.min.js
-// @downloadURL https://update.greasyfork.org/scripts/432453/KrunkerIO%20Aimbot%20%20ESP.user.js
-// @updateURL https://update.greasyfork.org/scripts/432453/KrunkerIO%20Aimbot%20%20ESP.meta.js
+// @downloadURL https://update.greasyfork.org/scripts/565051/KrunkerIO%20Aimbot%2C%20esp%2C%20wireframe.user.js
+// @updateURL https://update.greasyfork.org/scripts/565051/KrunkerIO%20Aimbot%2C%20esp%2C%20wireframe.meta.js
 // ==/UserScript==
 // READ THIS PLEASE!!!!!!!
 // the esp lines make ur camrea break so do not use them. they are disabled by default.
